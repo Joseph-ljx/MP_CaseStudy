@@ -21,8 +21,6 @@ npm install
 npm start
 ```
 
-## 📚 Award and Patent
-
 ## :cloud: Cloud Deployment
 
 ## 🖥  Quick Exhibition
