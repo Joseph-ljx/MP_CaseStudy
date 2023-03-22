@@ -35,6 +35,7 @@ A quick introduction and demo to this case study's logic and effect. Several Pic
 ## 📃 Model System Assumptions
 
 · The validation of customer attribute input could be done both in front-end or back-end. I decide to do it in backend (verifing the request) that matches the goal of RESTful design. A full (req, res) process is configure.
+
 · When doing this in the front end, JS regex or JQuery could handle this. This save the resource and time for this action.
 
 ## 🤖 Backend Logic
