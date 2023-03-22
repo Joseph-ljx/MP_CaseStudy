@@ -7,7 +7,12 @@
 ![Yarn](https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white)
 ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
 
-## ✈️ Development
+![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+
+## :cloud: Cloud Deployment
+
+## ✈️ Local Dev Deployment
 
 ```bash
 # Clone Project
@@ -21,8 +26,6 @@ npm install
 npm start
 ```
 
-## :cloud: Cloud Deployment
-
 ## 🖥  Quick Exhibition
 
 A quick introduction and demo to this case study's logic and effect. Several Pictures and logic is included below.
@@ -31,10 +34,13 @@ A quick introduction and demo to this case study's logic and effect. Several Pic
 
 ## 📃 Model System Assumptions
 
-· 
-· 
-· 
+· The validation of customer attribute input could be done both in front-end or back-end. I decide to do it in backend (verifing the request) that matches the goal of RESTful design. A full (req, res) process is configure.
+· When doing this in the front end, JS regex or JQuery could handle this. This save the resource and time for this action.
 
-## 🤖 Web Backend choice
+## 🤖 Backend Logic
 
 Express is a powerful and scalable backend that provides a fast and comprehensive set tools to build this system. It allows me to manage the data, authenticate users, and perform complex operations with ease.
+
+## :floppy_disk: Databases
+
+· 
