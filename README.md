@@ -29,14 +29,12 @@ A quick introduction and demo to this case study's logic and effect. Several Pic
 
 `picture here`
 
---------------------
 ## 📃 Model System Assumptions
 
 · 
 · 
 · 
 
---------------------
 ## 🤖 Web Backend choice
 
 Express is a powerful and scalable backend that provides a fast and comprehensive set tools to build this system. It allows me to manage the data, authenticate users, and perform complex operations with ease.
