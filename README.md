@@ -11,19 +11,19 @@
 ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 
-## :cloud: Cloud Deployment
+##  :cloud: Cloud Deployment
 
 ## ✈️ Local Dev Deployment
 
 ```bash
-# Clone Project
+#  Clone Project
 # Enter Project Directory
 cd ..
 
-# Install Dependencies
+#  Install Dependencies
 npm install
 
-# Local Dev Start
+#  Local Dev Start
 npm start
 ```
 
@@ -33,16 +33,20 @@ A quick introduction and demo to this case study's logic and effect. Several Pic
 
 `picture here`
 
-## 📃 Model System Assumptions
+##  📃 Model System Assumptions
 
 · The validation of customer attribute input could be done both in front-end or back-end. I decide to do it in backend (verifing the request) that matches the goal of RESTful design. A full (req, res) process is configure.
 
 · When doing this in the front end, JS regex or JQuery could handle this. This save the resource and time for this action.
 
-## 🤖 Backend Logic
+##  🤖 Backend Logic
 
 Express is a powerful and scalable backend that provides a fast and comprehensive set tools to build this system. It allows me to manage the data, authenticate users, and perform complex operations with ease.
 
-## :floppy_disk: Databases
+##  :floppy_disk: Databases (Optional)
 
-· 
+For this case study, I also think linking a database for data storage would ;
+
+· AWS MySQL RDS
+· MongoDB Atlas
+
