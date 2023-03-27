@@ -67,7 +67,7 @@ Express is a powerful and scalable backend that provides a fast and comprehensiv
 - View existing docker images
   - run `docker ps`
 - Build docker image:
-  - run `docker build -t ljx02263/ediss-a1:latest`
+  - run `docker build -t ljx02263/mealpal-casestudy:latest`
   - or unique name `ljx02263/<unique tag>`
 - See the current image in this machine:
   - docker images
