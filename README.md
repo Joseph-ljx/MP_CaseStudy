@@ -37,7 +37,7 @@ Start the React front end site with `npm start`. This startsthe frontend website
 
 - Open [http://localhost:3001](http://localhost:3001) to view it in the browser.
 - You may see some lint error in the console log.
-- For the frontend React framework, I adopt a componenets library called md5 boostrap. Thanks for its beautiful designs, I could have a brief and useful scheme for my case study. More information about this library could be found at https://mdbootstrap.com/docs/react/ 
+- For the frontend React framework, I adopt a componenets library called md5 boostrap. Thanks for its beautiful designs, I could have a brief and useful scheme for my case study. More information about this library could be found at [MD5 Bookstrap & React](https://mdbootstrap.com/docs/react/) 
 
 ### Docker
 
