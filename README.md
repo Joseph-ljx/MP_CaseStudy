@@ -8,7 +8,8 @@
 - Backend: Express
 - Package Updates: npm-check-updates
 - Linting: ESLint
-- Deployment AWS EC2
+- Deployment AWS EC2 / flyio
+- Database AWS RDS
 
 ## Repository Setup
 
@@ -31,15 +32,13 @@ This runs ESLint for the files in the `src/` directory containing the React app 
 
 ### Local development
 
-Start the API server with `npm run start`. This starts the backend server at http://localhost:3000.
+Start the API server with `npm run server`. This starts the backend server at http://localhost:3000.
 
 - Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-- The page will reload if you make edits. You will also see any lint errors in the console.
+- The page will reload if you make edits. You may see some lint error in the console log.
 
 ### Docker
 
-- Build server for deployment
-  - run `npm run preserver`
 - Build react app
   - run `npm run build`
 - View existing docker images
@@ -48,7 +47,7 @@ Start the API server with `npm run start`. This starts the backend server at htt
   - run `docker build -t ljx02263/ediss-a1:latest`
   - or unique name `ljx02263/<unique tag>`
 - Run docker image:
-  - run `docker run -p 80:3000 ljx02263/ediss-a1:latest`
+  - run `docker run -p 80:3000 ljx02263/MP_CaseStudy:latest`
 - Stop docker image:
   - run `docker ps` to find the ID of the container you want to stop
   - run `docker stop <container id>` to stop the container
