@@ -54,6 +54,12 @@ React documentation could be checked out here [React documentation](https://reac
 # This startsthe frontend website at http://localhost:3001.
 ```
 
+## 🖥  Quick Exhibition
+
+##  🤖 Backend Logic
+
+Express is a powerful and scalable backend that provides a fast and comprehensive set tools to build this system. It allows me to manage the data, authenticate users, and perform complex operations with ease.
+
 ### Docker
 
 - Build react app
@@ -70,3 +76,9 @@ React documentation could be checked out here [React documentation](https://reac
 - Stop docker image:
   - run `docker ps` to find the ID of the container you want to stop
   - run `docker stop <container id>` to stop the container
+
+##  :floppy_disk: Databases
+
+For this case study, I choose a database for data storage
+
+· [AWS MySQL RDS](https://aws.amazon.com/rds/mysql/?nc1=h_ls)
