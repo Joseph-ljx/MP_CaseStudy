@@ -81,4 +81,4 @@ Express is a powerful and scalable backend that provides a fast and comprehensiv
 
 For this case study, I choose a database for data storage
 
-· [AWS MySQL RDS](https://aws.amazon.com/rds/mysql/?nc1=h_ls)
+· [AWS RDS for MySQL](https://aws.amazon.com/rds/mysql/?nc1=h_ls)
