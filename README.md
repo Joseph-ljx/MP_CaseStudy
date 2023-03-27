@@ -24,18 +24,20 @@
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### `npm run lint`
-
-This runs ESLint for the files in the `src/` directory containing the React app and the `server/` directory containing the API server.
+React documentation could be checked out here [React documentation](https://reactjs.org/).
 
 ### Local development
 
-Start the API server with `npm run server`. This starts the backend server at http://localhost:3000.
+Start the express API server with `npm run server`. This starts the backend server at http://localhost:3000.
 
 - Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 - The page will reload if you make edits. You may see some lint error in the console log.
+
+Start the React front end site with `npm start`. This startsthe frontend website at http://localhost:3001.
+
+- Open [http://localhost:3001](http://localhost:3001) to view it in the browser.
+- You may see some lint error in the console log.
+- For the frontend React framework, I adopt a componenets library called md5 boostrap. Thanks for its beautiful designs, I could have a brief and useful scheme for my case study. More information about this library could be found at https://mdbootstrap.com/docs/react/ 
 
 ### Docker
 
@@ -46,7 +48,9 @@ Start the API server with `npm run server`. This starts the backend server at ht
 - Build docker image:
   - run `docker build -t ljx02263/ediss-a1:latest`
   - or unique name `ljx02263/<unique tag>`
-- Run docker image:
+- See the current image in this machine:
+  - docker images
+- Run docker image (expose backend port of 3000 to container 80) :
   - run `docker run -p 80:3000 ljx02263/MP_CaseStudy:latest`
 - Stop docker image:
   - run `docker ps` to find the ID of the container you want to stop
