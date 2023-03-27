@@ -46,16 +46,16 @@ React documentation could be checked out here [React documentation](https://reac
 # Start the express API server with 
 `npm run server`. 
 
-This starts the backend server at http://localhost:3000.
-- Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-- The page will reload if you make edits. You may see some lint error in the console log.
+# This starts the backend server at http://localhost:3000.
+# Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# The page will reload if you make edits. You may see some lint error in the console log.
 
 # Start the React front end site with 
 npm start. 
 
-This startsthe frontend website at http://localhost:3001.
-- Open [http://localhost:3001](http://localhost:3001) to view it in the browser.
-- You may see some lint error in the console log.
+# This startsthe frontend website at http://localhost:3001.
+# Open [http://localhost:3001](http://localhost:3001) to view it in the browser.
+# You may see some lint error in the console log.
 ```
 
 ### Docker
