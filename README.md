@@ -11,7 +11,7 @@
 ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 
-## EC2 Running
+##  :cloud: Cloud Deployment
 
 ## Tools and Technologies
 
@@ -39,8 +39,9 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 React documentation could be checked out here [React documentation](https://reactjs.org/).
 
-### Local development
+## ✈️ Local Deployment
 
+```bash
 Start the express API server with `npm run server`. This starts the backend server at http://localhost:3000.
 
 - Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -51,6 +52,7 @@ Start the React front end site with `npm start`. This startsthe frontend website
 - Open [http://localhost:3001](http://localhost:3001) to view it in the browser.
 - You may see some lint error in the console log.
 - For the frontend React framework, I adopt a componenets library called md5 boostrap. Thanks for its beautiful designs, I could have a brief and useful scheme for my case study. More information about this library could be found at [MD5 Bookstrap & React](https://mdbootstrap.com/docs/react/) 
+```
 
 ### Docker
 
