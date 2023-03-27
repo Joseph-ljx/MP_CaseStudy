@@ -21,8 +21,9 @@
 - Backend: Express
 - Package Updates: npm-check-updates
 - Linting: ESLint
-- Deployment AWS EC2 / flyio
-- Database AWS RDS
+- Cloud Deployment: AWS EC2 / flyio
+- Database: AWS RDS
+- Design & Componenets library: [MD5 Bookstrap & React](https://mdbootstrap.com/docs/react/) 
 
 ## Repository Setup
 
@@ -42,16 +43,19 @@ React documentation could be checked out here [React documentation](https://reac
 ## ✈️ Local Deployment
 
 ```bash
-Start the express API server with `npm run server`. This starts the backend server at http://localhost:3000.
+# Start the express API server with 
+`npm run server`. 
 
+This starts the backend server at http://localhost:3000.
 - Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 - The page will reload if you make edits. You may see some lint error in the console log.
 
-Start the React front end site with `npm start`. This startsthe frontend website at http://localhost:3001.
+# Start the React front end site with 
+npm start. 
 
+This startsthe frontend website at http://localhost:3001.
 - Open [http://localhost:3001](http://localhost:3001) to view it in the browser.
 - You may see some lint error in the console log.
-- For the frontend React framework, I adopt a componenets library called md5 boostrap. Thanks for its beautiful designs, I could have a brief and useful scheme for my case study. More information about this library could be found at [MD5 Bookstrap & React](https://mdbootstrap.com/docs/react/) 
 ```
 
 ### Docker
