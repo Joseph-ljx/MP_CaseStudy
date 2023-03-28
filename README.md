@@ -48,12 +48,6 @@
 # This startsthe frontend website at http://localhost:3001.
 ```
 
-## 🖥  Quick Exhibition
-
-##  🤖 Backend Logic
-
-Express is a powerful and scalable backend that provides a fast and comprehensive set tools to build this system. It allows me to manage the data, authenticate users, and perform complex operations with ease.
-
 ### Docker
 
 - Build react app
@@ -70,6 +64,13 @@ Express is a powerful and scalable backend that provides a fast and comprehensiv
 - Stop docker image:
   - run `docker ps` to find the ID of the container you want to stop
   - run `docker stop <container id>` to stop the container
+
+## 🖥  Quick Exhibition
+
+##  🤖 Backend Logic
+
+Express is a powerful and scalable backend that provides a fast and comprehensive set tools to build this system. It allows me to manage the data, authenticate users, and perform complex operations with ease.
+
 
 ##  :floppy_disk: Databases
 
