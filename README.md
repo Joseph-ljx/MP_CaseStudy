@@ -67,9 +67,10 @@
 
 ## 🖥  Quick Exhibition
 
-##  🤖 Backend Logic
+## 🤖 System Logic
 
 Express is a powerful and scalable backend that provides a fast and comprehensive set tools to build this system. It allows me to manage the data, authenticate users, and perform complex operations with ease.
+![System Logic](https://user-images.githubusercontent.com/92981525/228330474-c94e7ae1-d71e-4d4d-b7dc-832191143947.png)
 
 
 ##  :floppy_disk: Databases
