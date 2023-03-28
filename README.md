@@ -13,7 +13,7 @@
 
 ##  :cloud: Cloud Deployment
 
-## Tools and Technologies
+## :hammer_and_wrench: Tools and Technologies
 
 - Hub: GitHub Actions
 - Framework: NodeJS
@@ -25,7 +25,7 @@
 - Database: AWS RDS
 - Design & Componenets library: [MD5 Bookstrap & React](https://mdbootstrap.com/docs/react/) 
 
-## Repository Setup
+## :rocket: Repository Setup
 
 - Install [NodeJS/NPM](https://nodejs.org/en/download/)
 - Install packages
