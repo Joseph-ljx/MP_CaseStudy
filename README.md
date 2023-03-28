@@ -34,12 +34,6 @@
 - Install tools
   - Run `npm install -g npm-check-updates` for dependencies checker
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-React documentation could be checked out here [React documentation](https://reactjs.org/).
-
 ## ✈️ Local Deployment
 
 ```bash
@@ -82,3 +76,9 @@ Express is a powerful and scalable backend that provides a fast and comprehensiv
 For this case study, I choose a database for data storage
 
 · [AWS RDS for MySQL](https://aws.amazon.com/rds/mysql/?nc1=h_ls)
+
+##  :school: Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+React documentation could be checked out here [React documentation](https://reactjs.org/).
