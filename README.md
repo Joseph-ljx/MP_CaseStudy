@@ -48,7 +48,7 @@
 # This startsthe frontend website at http://localhost:3001.
 ```
 
-### Docker
+## :ship: Docker
 
 - Build react app
   - run `npm run build`
