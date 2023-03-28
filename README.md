@@ -11,7 +11,10 @@
 ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 
-##  :cloud: Cloud Deployment
+## 🤖 System Logic
+
+Express is a powerful and scalable backend that provides a fast and comprehensive set tools to build this system. It allows me to manage the data, authenticate users, and perform complex operations with ease.
+![System Logic](https://user-images.githubusercontent.com/92981525/228330474-c94e7ae1-d71e-4d4d-b7dc-832191143947.png)
 
 ## :hammer_and_wrench: Tools and Technologies
 
@@ -66,12 +69,6 @@
   - run `docker stop <container id>` to stop the container
 
 ## 🖥  Quick Exhibition
-
-## 🤖 System Logic
-
-Express is a powerful and scalable backend that provides a fast and comprehensive set tools to build this system. It allows me to manage the data, authenticate users, and perform complex operations with ease.
-![System Logic](https://user-images.githubusercontent.com/92981525/228330474-c94e7ae1-d71e-4d4d-b7dc-832191143947.png)
-
 
 ##  :floppy_disk: Databases
 
