@@ -60,12 +60,12 @@ The following diagram shows the process and general logic of my case study desig
 - View existing docker images
   - run `docker ps`
 - Build docker image:
-  - run `docker build -t ljx02263/mealpal-casestudy:latest`
-  - or unique name `ljx02263/<unique tag>`
+  - run `docker build -t name/<unique tag>:latest`
+  - or unique name `name/<unique tag>`
 - See the current image in this machine:
   - docker images
 - Run docker image (expose backend port of 3000 to container 80) :
-  - run `docker run -p 80:3000 ljx02263/MP_CaseStudy:latest`
+  - run `docker run -p 80:3000 name/<unique tag>:latest`
 - Stop docker image:
   - run `docker ps` to find the ID of the container you want to stop
   - run `docker stop <container id>` to stop the container
@@ -81,13 +81,13 @@ For this case study, I designed and deployed a simple database schema with
 3. phone: input by the user
 
 ```bash
---------------------------
-| userId   | BigInt      |
---------------------------
-| username | Varchar(40) |
---------------------------
-| Phone    | Varchar(25) |
---------------------------
+--------------------------------
+| userId   | BigInt      |  PK |
+--------------------------------
+| username | Varchar(40) |  NN |
+--------------------------------
+| Phone    | Varchar(25) |  NN |
+--------------------------------
 ```
 
 ##  :school: Learn More
