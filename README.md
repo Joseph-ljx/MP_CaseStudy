@@ -81,6 +81,7 @@ For this case study, I designed and deployed a simple database schema with
 3. phone: input by the user
 
 ```bash
+--------------------------
 | userId   | BigInt      |
 | username | Varchar(40) |
 | Phone    | Varchar(25) |
