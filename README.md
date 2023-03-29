@@ -71,7 +71,7 @@ The following diagram shows the process and general logic of my case study desig
   - run `docker stop <container id>` to stop the container
 
 ## 🖥  Quick Exhibition
-
+------------------------------------------------------------------------------------------
 ![1](https://user-images.githubusercontent.com/92981525/228604851-86b417bf-164e-45b7-b4cd-a9cac1968a34.png)
 ![2](https://user-images.githubusercontent.com/92981525/228604871-4233421b-17df-4fd4-aaf3-23e7d18c9323.png)
 
