@@ -83,8 +83,11 @@ For this case study, I designed and deployed a simple database schema with
 ```bash
 --------------------------
 | userId   | BigInt      |
+--------------------------
 | username | Varchar(40) |
+--------------------------
 | Phone    | Varchar(25) |
+--------------------------
 ```
 
 ##  :school: Learn More
