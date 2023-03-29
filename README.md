@@ -14,8 +14,8 @@
 ## 🤖 System Logic
 
 The following diagram shows the process and general logic of my case study design. For exhibition of tools and viability, I have
-1. Pack my case study code by docker and deployed it on the cloud platform fly.io
-2. Connect to AWS RDS MySQL for storing the data
+1. Pack my case study code by docker and deployed it on the cloud platform [fly.io](https://fly.io/)
+2. Connect to [AWS RDS for MySQL](https://aws.amazon.com/rds/mysql/?nc1=h_ls) for storing the data
 ![System Logic](https://user-images.githubusercontent.com/92981525/228330474-c94e7ae1-d71e-4d4d-b7dc-832191143947.png)
 
 ## :hammer_and_wrench: Tools and Technologies
@@ -72,11 +72,10 @@ The following diagram shows the process and general logic of my case study desig
 
 ## 🖥  Quick Exhibition
 
-##  :floppy_disk: Databases
+##  :floppy_disk: Databases Schema
 
 For this case study, I choose a database for data storage
 
-· [AWS RDS for MySQL](https://aws.amazon.com/rds/mysql/?nc1=h_ls)
 
 ##  :school: Learn More
 
