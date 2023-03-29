@@ -20,15 +20,16 @@ The following diagram shows the process and general logic of my case study desig
 
 ## :hammer_and_wrench: Tools and Technologies
 
-- Hub: GitHub Actions
-- Framework: NodeJS
-- Language: Javascript
-- Backend: Express
+- **Framework: NodeJS**
+- **Frontend: ReactJs**
+- **Backend: Express**
+- **Language: Javascript**
 - Package Updates: npm-check-updates
 - Linting: ESLint
 - Cloud Deployment: AWS EC2 / flyio
 - Database: AWS RDS
 - Design & Componenets library: [MD5 Bookstrap & React](https://mdbootstrap.com/docs/react/) 
+- Hub: GitHub Actions
 
 ## :rocket: Repository Setup
 
