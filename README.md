@@ -71,7 +71,7 @@ The following diagram shows the process and general logic of my case study desig
   - run `docker stop <container id>` to stop the container
 
 ## 🖥  Quick Exhibition
-<img src="https://user-images.githubusercontent.com/92981525/228604851-86b417bf-164e-45b7-b4cd-a9cac1968a34.png" width="500" height="500"> <img src="https://user-images.githubusercontent.com/92981525/228604871-4233421b-17df-4fd4-aaf3-23e7d18c9323.png" width="500" height="300">
+<img src="https://user-images.githubusercontent.com/92981525/228604851-86b417bf-164e-45b7-b4cd-a9cac1968a34.png" width="600" height="600"> <img src="https://user-images.githubusercontent.com/92981525/228604871-4233421b-17df-4fd4-aaf3-23e7d18c9323.png" width="400" height="240">
 
 ##  :floppy_disk: Databases Schema
 
