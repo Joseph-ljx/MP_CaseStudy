@@ -13,7 +13,9 @@
 
 ## 🤖 System Logic
 
-Express is a powerful and scalable backend that provides a fast and comprehensive set tools to build this system. It allows me to manage the data, authenticate users, and perform complex operations with ease.
+The following diagram shows the process and general logic of my case study design. For exhibition of tools and viability, I have
+1. Pack my case study code by docker and deployed it on the cloud platform fly.io
+2. Connect to AWS RDS MySQL for storing the data
 ![System Logic](https://user-images.githubusercontent.com/92981525/228330474-c94e7ae1-d71e-4d4d-b7dc-832191143947.png)
 
 ## :hammer_and_wrench: Tools and Technologies
@@ -43,12 +45,12 @@ Express is a powerful and scalable backend that provides a fast and comprehensiv
 # Start the express API server with 
 - npm run server 
 
-# This starts the backend server at http://localhost:3000.
+# This starts the backend server at http://localhost:3001
 
 # Start the React front end site with 
 - npm start
 
-# This startsthe frontend website at http://localhost:3001.
+# This startsthe frontend website at http://localhost:3000.
 ```
 
 ## :ship: Docker
