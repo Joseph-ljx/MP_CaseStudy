@@ -80,14 +80,12 @@ For this case study, I designed and deployed a simple database schema with
 2. username: input by the user
 3. phone: input by the user
 
---------------------------
+```bash
 | userId   | BigInt      |
---------------------------
 | username | Varchar(40) |
---------------------------
 | Phone    | Varchar(25) |
---------------------------
-|
+```
+
 ##  :school: Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
