@@ -25,7 +25,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "start npm run server && start npm run app",
+    "start": "concurrently --kill-others \"npm run server\" \"npm run app\"",
     "server": "node ./server/server.js",
     "app": "cross-env PORT=3000 REACT_APP_SERVER_URL='http://localhost:3001' react-scripts start",
     "dev": "start npm run server && start npm run app",
@@ -53,6 +53,7 @@
     "@babel/cli": "^7.21.0",
     "@babel/core": "^7.21.3",
     "@babel/preset-env": "^7.20.2",
+    "concurrently": "^8.0.1",
     "cross-env": "^7.0.3",
     "eslint": "^8.36.0",
     "eslint-plugin-react": "^7.32.2"
