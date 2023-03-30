@@ -1,4 +1,8 @@
-/** Express configuration */
+/**
+ * Express App Configuration
+ * @author Joseph Liao
+ */
+
 const express = require("express");
 const cookieParser = require("cookie-parser");
 const createError = require("http-errors");
@@ -8,7 +12,7 @@ const path = require("path");
 // Main express router
 const app = express();
 
-// Import relevant routers - specifically the user input
+// Import relevant routers
 const userRouter = require("./routes/UserAPI");
 
 // Default setting of express specify the static resources

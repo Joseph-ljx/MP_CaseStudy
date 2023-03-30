@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 /**
  * Module dependencies.
  */
@@ -9,11 +7,11 @@ var debug = require("debug")("project:server");
 var http = require("http");
 
 /**
- * Get port from environment and store in Express.
- * Or directly use default port "3000"
+ * Get the port from environment variable if entered (Store in Express.)
+ * Or directly use default port "3001"
  */
 
-var port = normalizePort(process.env.PORT || "3000");
+var port = normalizePort(process.env.PORT || "3001");
 app.set("port", port);
 
 /**

@@ -18,7 +18,7 @@ COPY . .
 # The EXPOSE directive declares the port that the container runtime provides services,
 # Which is just a declaration
 # The application will not open the service of this port because of this declaration when the container is running.
-EXPOSE 3000
+EXPOSE 3001
 
 # For real running binding of port
 # -p <host port>:<container application port>

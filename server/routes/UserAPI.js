@@ -20,33 +20,48 @@ router.use(bodyParser.urlencoded({ extended: false }));
  * Description:
  * Adding the information into the database if valid.
  * Request Body Params
- * @param FullName Both first name and last name (length = 2)
- * @param Phone Should a only 10 digits number (e.x. 1231234567)
+ * @param req http request (username, phone)
+ * @param res http response
  */
 
 router.post("/", async function (req, res) {
   console.log("POST /api/users - Adding new full name and phone");
   console.log(req.body);
 
-  // Generate a unique digit id
-  // (user name may be duplicate and could not be the PK in DB)
-  var id = Date.now();
-
-  // Splitting the name by spaces using regex.
-  var nameLen = req.body.username.match(/\w+/g);
+  const { username, phone } = req.body;
+  console.log("user: " + username + " phone: " + phone);
 
   try {
-    // Invalid input
-    if (!nameLen.length === 2) {
+    // If info is lost
+    if (!username || !phone) {
       res.status(400);
-      res.json("Numbers only (e.x. 1231231234)!");
+      res.json({ errMessage: "Mandatory Information Lost!" });
+      return;
+    }
+
+    // Generate a unique digit id
+    // (user name may be duplicate and could not be the PK in DB)
+    var id = Date.now();
+
+    // Splitting the name by spaces using regex.
+    var nameSet = username.trim().split(/\s+/);
+
+    // Valid phone regex for 10 or 11 digits
+    var phoneRegex = /^\d{10,11}$/;
+
+    // Invalid input
+    if (nameSet.length < 2) {
+      res.status(400);
+      res.json({ errMessage: "UserName must be your first name last name!" });
 
       // Recommend to place a return statement after the res.send call
       // to make your function stop executing further.
       return;
-    } else if (!req.body.phone.match(/\d/g).length === 10) {
+    } else if (!phoneRegex.test(phone)) {
       res.status(400);
-      res.json("Must be your first name last name!");
+      res.json({
+        errMessage: "Phone should only has 10 or 11 digits! (e.x. 1231231234)!",
+      });
 
       // Recommend to place a return statement after the res.send call
       // to make your function stop executing further.
@@ -57,11 +72,14 @@ router.post("/", async function (req, res) {
     var sql = `INSERT INTO User
         (id, username, phone)
         VALUES
-        (${id}, '${req.body.username}', '${req.body.phone}');`;
+        (${id}, '${username}', '${phone}');`;
 
+    // Execute the SQL script
     con.query(sql, function (err, result) {
       if (err) {
         console.log("Error: " + err.message);
+        res.status(500).json({ errMessage: "Internal DB error!" });
+        return;
       }
 
       // Exhibit the full URL in Express + id
@@ -72,11 +90,12 @@ router.post("/", async function (req, res) {
 
       // Successfully created.
       // Assign the id for exhibition
-      res.status(201).json("Successfully inserted in the DB!");
+      res.status(201).json({ message: "Successfully inserted in the DB!" });
+      return;
     });
   } catch (e) {
     res.status(404);
-    res.json("request failed!");
+    res.json({ errMessage: "request failed!" });
   }
 });
 

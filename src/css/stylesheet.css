@@ -22,6 +22,15 @@ code {
     monospace;
 }
 
+.btn:active {
+  transform: scale(0.95);
+}
+
+.btn:hover {
+  border-color: rgba(37, 117, 252, 1);
+  color: rgb(101, 50, 141);
+}
+
 /* This part hides the up & down arrow of the phone input */
 
 input::-webkit-outer-spin-button,
