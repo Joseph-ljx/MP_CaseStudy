@@ -43,13 +43,19 @@ The following diagram shows the process and general logic of my case study desig
 ## ✈️ Local Deployment
 
 ```bash
+# I implemented 'concurrently' for starting both FE/BE together sequentially
+- npm start
+
+# This would run FE/BE same time in localhost:3000 && 3001
+
+# For microservices aspect of view (separately)
 # Start the express API server with 
 - npm run server 
 
 # This starts the backend server at http://localhost:3001
 
 # Start the React front end site with 
-- npm start
+- npm run app
 
 # This startsthe frontend website at http://localhost:3000.
 ```
