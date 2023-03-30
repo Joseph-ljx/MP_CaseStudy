@@ -23,9 +23,6 @@ import "react-toastify/dist/ReactToastify.css";
 // Navigation for forwarding the page
 import { useNavigate } from "react-router-dom";
 
-// Import Server URL from constants
-import { ServerUrl } from "../consts";
-
 // Use the toast info for information alert
 import { toast } from "react-toastify";
 
@@ -76,11 +73,8 @@ function Input() {
    */
   const addInfo = async (requestBody) => {
     try {
-      // test
-      console.log(`${ServerUrl}/api/users/`);
-
       // Call the api
-      const response = await fetch(`${ServerUrl}/api/users/`, {
+      const response = await fetch(`/api/users/`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json;charset=UTF-8",
