@@ -11,6 +11,10 @@
 ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 
+## :cloud: Cloud Deployment
+
+For direct experience and exhibition, please visit a cloud deployment on fly.io:  https://mealpal-casestudy.fly.dev/
+
 ## 🤖 System Logic
 
 The following diagram shows the process and general logic of my case study design. For exhibition of tools and viability, I have
@@ -31,6 +35,8 @@ The following diagram shows the process and general logic of my case study desig
 - Design & Componenets library: [MD5 Bookstrap & React](https://mdbootstrap.com/docs/react/) 
 - Hub: GitHub Actions
 
+**Sorry that I am not proficient in Ruby, but I have strong intension to learn it. Althrough this BE API is written in JS, I also cover some ruby work in ./server/ruby/userAPI.rb. It is simple and brief, thanks for your consideration.**
+
 ## :rocket: Repository Setup
 
 - Install [NodeJS/NPM](https://nodejs.org/en/download/)
@@ -43,13 +49,19 @@ The following diagram shows the process and general logic of my case study desig
 ## ✈️ Local Deployment
 
 ```bash
+# I implemented 'concurrently' for scripts starting both FE/BE together sequentially
+- npm start
+
+# This would run FE/BE same time in localhost:3000 && 3001, no need for extra actions
+
+# From microservices aspect of deployment (separately)
 # Start the express API server with 
 - npm run server 
 
 # This starts the backend server at http://localhost:3001
 
 # Start the React front end site with 
-- npm start
+- npm run app
 
 # This startsthe frontend website at http://localhost:3000.
 ```
