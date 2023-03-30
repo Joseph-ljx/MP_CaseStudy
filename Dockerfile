@@ -23,4 +23,4 @@ EXPOSE 3001
 # For real running binding of port
 # -p <host port>:<container application port>
 
-CMD [ "node", "server.js" ]
+CMD [ "node", "./server/server.js" ]

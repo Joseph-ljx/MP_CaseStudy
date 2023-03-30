@@ -1,6 +1,7 @@
 {
   "name": "MealPal_CaseStudy",
   "version": "1.0.0",
+  "main": "./server/server.js",
   "description": "The case study ",
   "author": "Joseph Liao",
   "license": "MIT",
@@ -24,8 +25,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "cross-env PORT=3000 REACT_APP_SERVER_URL='http://localhost:3001' react-scripts start",
-    "server": "node server.js",
+    "start": "cross-env PORT=3000 REACT_APP_SERVER_URL='http://0.0.0.0:3001' npm run server && npm build",
+    "server": "node ./server/server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
