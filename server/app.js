@@ -19,8 +19,14 @@ const userRouter = require("./routes/UserAPI");
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname, "public")));
+app.use(express.static(path.join(__dirname, "..", "build")));
 app.use(cors());
+
+// Retrieve the static react resources
+// (This part is for consolidate service deployment react -> single file)
+app.get("*", (req, res) =>
+  res.sendFile(path.join(__dirname, "..", "build", "index.html"))
+);
 
 // Apply routers
 app.use("/api/users", userRouter);
