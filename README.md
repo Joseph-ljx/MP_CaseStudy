@@ -13,9 +13,7 @@
 
 ## :cloud: Cloud Deployment
 
-Visit a cloud deployment of casestudy on： https://mealpal-casestudy.fly.dev/
-
-It is for direct experience and exhibition.
+For direct experience and exhibition, please visit a cloud deployment on fly.io:  https://mealpal-casestudy.fly.dev/
 
 ## 🤖 System Logic
 
